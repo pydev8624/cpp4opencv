@@ -9,7 +9,8 @@ namespace dialoge {
         void hello();       // تابع نمونه (غیر static)
     };
 
-    void salam();  // تابع آزاد در فضای نام dialoge
+    void hi();     // تابع آزاد
+    void hello();  // تعریف شده ولی فعلاً استفاده نشده
 
 }
 
