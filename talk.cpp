@@ -9,16 +9,14 @@ namespace dialoge {
         talking::hi();
     }
 
-    void hello() {
-        talking::hello();  // اختیاری است چون در main استفاده نمی‌شود
+    void talking::hello() {
+        cout<<"hello"<<endl;
     }
 
     void talking::hi() {
         cout << "hi" << endl;
     }
 
-    void talking::hello() {
-        cout << "hello" << endl;
-    }
+    
 
 }
