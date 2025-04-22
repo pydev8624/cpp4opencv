@@ -10,7 +10,7 @@ namespace dialoge {
     };
 
     void hi();     // تابع آزاد
-    void hello();  // تعریف شده ولی فعلاً استفاده نشده
+    
 
 }
 
