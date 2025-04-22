@@ -8,11 +8,11 @@ using namespace std;
 using namespace dialoge;
 
 int main() {
-    salam();            // فراخوانی تابع آزاد
-    talking::hi();      // فراخوانی تابع static از کلاس
+    hi();             // فراخوانی تابع آزاد
+    talking::hi();    // فراخوانی تابع static از کلاس
 
-    talking t;          // ایجاد یک شیء از کلاس
-    t.hello();          // فراخوانی تابع نمونه
+    talking t;        // ایجاد یک شیء از کلاس
+    t.hello();        // فراخوانی تابع نمونه
 
     return 0;
 }
