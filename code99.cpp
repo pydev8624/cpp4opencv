@@ -1,11 +1,13 @@
 #include <iostream>
 #include <set>
 
+using namespace std;
+
 int main() {
-    std::set<int> mySet = {5, 2, 8, 1, 3};
+    set<int> mySet = {5, 2, 8, 1, 3};
 
     for (int value : mySet) {
-        std::cout << value << " ";
+        cout << value << " ";
     }
 
     return 0;
